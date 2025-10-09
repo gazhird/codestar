@@ -63,7 +63,7 @@ path('', index_views.index, name='index'),
 
 open my_project/settings.py file
 find the INSTALLED_APPS list
-Append 'hello_world', to the end of the list of INSTALLED_APPS
+Append 'APP_NAME', to the end of the list of INSTALLED_APPS
 
 
 ## Testing app 
