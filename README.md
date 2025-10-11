@@ -73,12 +73,18 @@ py manage.py runserver
 
 
 
+
 ## Migrate 
 
 <!-- Now that your project is connected to the database, you can create database tables with Django's migrate command: -->
 
 py manage.py migrate
 
+## Migrate removal reset
+
+<!-- When you change data type of a input  -->
+
+py manage.py migrate blog zero
 
 ## Super User 
 
@@ -128,4 +134,10 @@ CSRF_TRUSTED_ORIGINS = [
     "https://*.codeinstitute-ide.net/",
     "https://*.herokuapp.com"
 ]
+
+# make folders in a folder 
+
+<!-- makes a folder called templates with a folder called blog in a existing folder called blog  -->
+
+mkdir -p blog/templates/blog
 
