@@ -141,3 +141,13 @@ CSRF_TRUSTED_ORIGINS = [
 
 mkdir -p blog/templates/blog
 
+# Summernote package 
+
+pip3 install django-summernote~=0.8.20.0
+
+## load json data to db from a file named posts
+
+<!-- by default, e.g. blog/fixtures/posts.json -->
+
+py manage.py loaddata posts
+
