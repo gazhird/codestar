@@ -151,3 +151,8 @@ pip3 install django-summernote~=0.8.20.0
 
 py manage.py loaddata posts
 
+## check python version 
+
+py -V
+
+
