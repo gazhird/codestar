@@ -156,3 +156,21 @@ py manage.py loaddata posts
 py -V
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git add --all
+git commit -m "enable serving of static files"
+git push origin main
