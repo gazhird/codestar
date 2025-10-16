@@ -167,7 +167,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 CLOUDINARY = {
-    'cloud_name': os.getenv('blog_img'),
-    'api_key': os.getenv('286241538135618'),
-    'api_secret': os.getenv('-uUI1J57uU5PQDFFuzFdnLt6urU'),
+    'cloud_name': os.getenv('dffpy8aov'),
+    'api_key': os.getenv('946429855384185'),
+    'api_secret': os.getenv('wHNWmei9GuSayeTDqsgxzsZN31U@dffpy8aov'),
 }
